@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "TownOfGrass": {
+      "commandName": "Project"
+    },
+    "TOG起動": {
+      "commandName": "Executable",
+      "executablePath": "$(AmongUsDev)\\Among Us.exe"
+    }
+  }
+}
