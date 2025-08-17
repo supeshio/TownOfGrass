@@ -24,11 +24,6 @@
 		<Reference Include="$(AmongUsDev)/BepInEx/core/*.dll" />
 		<Reference Include="$(AmongUsDev)/BepInEx/interop/*.dll" />
 	</ItemGroup>
- 
-	<ItemGroup>
-	  <None Include="Patch_\ChatCommands.cs" />
-	  <None Include="Patch_\ShowModStampPatch.cs" />
-	</ItemGroup>
 
 	<Target Name="Copy" AfterTargets="Build" Condition="'$(AmongUsDev)' != ''">
 		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(AmongUsDev)/BepInEx/plugins/" />
